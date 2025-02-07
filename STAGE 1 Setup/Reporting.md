@@ -65,7 +65,6 @@ http://your-ec2-public-ip:8080
 - **Platform**: Specify if applicable (e.g., `AWS`, `On-Prem`, `Kubernetes`)  
 - **Lifecycle**: Choose (`Production`, `Development`, etc.)  
 4. Click **Save Product**.
----
 
 ## 🚀 **Step 7: Create an Engagement Under the Product**  
 
@@ -81,7 +80,6 @@ http://your-ec2-public-ip:8080
 - **Status**: Set to `In Progress`.  
 4. Click **Save Engagement**.
 
----
 
 ## 🎯 **Next Steps: Import Security Scan Results**  
 
