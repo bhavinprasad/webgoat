@@ -185,9 +185,25 @@ Once all credentials are added, navigate back to **Manage Jenkins** → **Creden
 | Secret Text           | `defectdojo-api-key`    | DefectDojo API Key        |
 
 ---
+## 🚀 Installing Trivy on Jenkins Machine  
 
-## 🎯 **Jenkins is Now Configured with Required Credentials!**  
-These credentials can now be used in **pipelines, integrations, and authentication processes**. 🚀  
+Run the following commands to install **Trivy**:  
+
+```bash
+sudo apt-get install -y wget apt-transport-https gnupg lsb-release && \
+wget -qO - https://aquasecurity.github.io/trivy-repo/deb/public.key | sudo apt-key add - && \
+echo deb https://aquasecurity.github.io/trivy-repo/deb $(lsb_release -sc) main | sudo tee -a /etc/apt/sources.list.d/trivy.list && \
+sudo apt-get update && \
+sudo apt-get install -y trivy
+```
+To check version:
+
+``` 
+trivy --version
+```
+
+
+
 
 
  
