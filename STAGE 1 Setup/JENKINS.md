@@ -124,7 +124,7 @@ http://your-ec2-public-ip:8080
 ### 🔹 **Adding SonarQube Token (Secret Text)**  
    - **Kind:** `Secret text`  
    - **Scope:** `Global`  
-   - **Secret:** *(http://your-sonarqube-url/admin/webhooks ) -> create *
+   - **Secret:** **(http://your-sonarqube-url/admin/webhooks ) -> create**
    - **ID:** `Sonar`  
    - **Description:** `SonarQube API Token`  
    - Click **OK**.  
