@@ -1,5 +1,5 @@
-## Installing Jenkins on Ubuntu instance
-
+## Installing Jenkins on EC2 instance
+ 
 
 ```bash
 #!/bin/bash
