@@ -81,7 +81,7 @@ http://your-ec2-public-ip:8080
 4. Click **Save Engagement**.
 
 
-## 🎯 **Next Steps: Import Security Scan Results**  
+## 🎯 **Next Steps: Import Security Scan Results through API**  
 
 - **OWASP ZAP** (DAST)  
 - **Trivy** (Container Security)  
