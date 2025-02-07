@@ -35,7 +35,7 @@ docker --version
 Run OWASP ZAP Full Scan using Docker:
 
 ```bash
-sudo docker run --rm -v /home/ubuntu:/zap/wrk/:rw -t owasp/zap2docker-stable zap-full-scan.py -t http://your-webgoat-url.com
+sudo docker run --rm -v /home/ubuntu:/zap/wrk/:rw -t zaproxy/zap-stable zap-full-scan.py -t http://your-webgoat-url.com
 ```
 
 **Explanation of parameters:**
