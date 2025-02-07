@@ -1,4 +1,4 @@
-## 🚀 Setting Up a DAST Machine Using OWASP ZAP  
+## 🚀 Setting Up a DAST Machine (OWASP ZAP)
 
 
 
