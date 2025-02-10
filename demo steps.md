@@ -4,11 +4,11 @@
  
 #### 👉 Ensure the following are ready before the demo:
 
-**Jenkins** installed & running on http://54.88.63.136:8080/
+**Jenkins** installed & running on http://107.23.235.114:8080/
 
-**SonarQube** server running on http://54.160.99.203:9000/
+**SonarQube** server running on http://52.207.242.96:9000/
 
-**DefectDojo** instance running on http://107.20.41.75:8080
+**DefectDojo** instance running on http://54.167.36.248:8080
 
 Docker & Trivy installed on Jenkins
 
